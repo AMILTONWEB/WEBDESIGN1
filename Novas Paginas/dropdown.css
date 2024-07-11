@@ -1,0 +1,14 @@
+.dropdown{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+}
+
+div+ul{
+    background-color: rgb(190, 190, 209);
+    display: none;
+}
+div:hover+ul{
+    display: block;
+    box-shadow: 10px;
+}

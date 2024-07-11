@@ -1,0 +1,66 @@
+.navbar-toggler{
+    background-color: aqua;
+}
+.bi-house-door{
+    font-size: 100px;
+    color: aqua;
+}
+.bi-house-door:hover{
+    color: rgb(102, 202, 20);
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+.navbar-toggler{
+    background-color: aqua;
+}
+.bi-house-door{
+    font-size: 100px;
+    color: rgb(141, 172, 172);
+}
+.bi-house-door:hover{
+    
+    color: rgb(20, 129, 202);
+}
+.images{
+display: flex;
+align-items: center;
+}
+.bg-color{
+background-color: rgb(179, 196, 196);
+}
+.sc{
+width: 50%;
+display: flex;
+background-color: rgb(38, 39, 39);
+}
+.container-fluid #nav1:hover{
+padding: 0;
+border-bottom:1px solid ;
+}
+.container-fluid #nav3:hover{
+padding: 0;
+border-bottom:1px solid rgb(81, 81, 143) ;
+}
+#nav2>ul{
+display: none;
+}
+#nav2:hover>ul{
+display: block;
+position: absolute;
+top: 45px;
+background-color: rgb(19, 88, 88);
+z-index: 1;
+}
+#nav2>ul>li:hover{
+display: block;
+position: absolute;
+top: 45px;
+background-color: rgb(92, 141, 90);
+z-index: 1;
+}
+.itens #gen>.subitemgen{
+display: none;
+
+}

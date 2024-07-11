@@ -1,0 +1,40 @@
+/*Tela grande*/
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*alinhamento vertical*/
+}
+.ham{/* Alguns botao da tela grande*/
+    display: none;
+    /*Faz com que o botao(logo, Item1, Item2, Item3) desapareça qdo vc diminui a tela pelas estremidade vertical*/
+}
+*{/*Mudar o estilo geral, posição dos item1,2 e 3 para direita*/
+    padding: 0;
+}
+.itens{
+    display: flex;/*Itens alinhados*/
+    width: 30vw;/*Largura*/
+    justify-content: space-between;/*Espaçamento*/
+    background-color: rgb(145, 255, 0);/*Cor do fundo*/
+}
+.itens li{
+    list-style: none;/*Tirar os pontos da lista*/
+    padding: 0;/*Espaçamento por dentro*/
+}
+/*Fazendo tela pequena*/
+/*Criar botao*/
+#linha1,#linha2,#linha3{
+    width: 50px;/*largura*/
+    height: 1px;/*altura*/
+    background-color: rgb(121, 121, 199);
+    margin: 5px;/*margem pra separar as linhas*/
+}
+@media screen and (max-width:500px) {/*Modifica o CSS para telas pequenas de até 500px*/
+    .itens{/*Itens para tela pequena*/
+        display: none; /*Some lista*/
+    }
+    .ham{/*Botao para telas pequenas*/
+        display: block;/*Aparece na tela pequena*/
+    }
+}

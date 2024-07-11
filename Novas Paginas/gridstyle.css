@@ -1,0 +1,50 @@
+.logo{
+    background-color: rgb(126, 168, 168);
+    font-style: italic;
+    font-size: x-large;
+}
+.itens{
+    background-color: rgb(113, 113, 216);
+    font-weight: bolder;
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.logo-item{
+    display: flex;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-conect{
+    background-color: brown;
+    align-items: center;
+    display: flex;
+    font-stretch: condensed;
+}
+.itens li:hover,.logo:hover{
+    color: rgb(16, 63, 104);
+}
+.subitemledu{
+    position: absolute;
+    background-color: rgb(131, 139, 139);
+    top: 70px;
+    display: none;
+}
+
+li:hover>.subitemledu{
+    display: block;
+}
+
+.itens #gen:hover>.subitemgen{
+    display: block;
+    position: absolute;
+    color: aqua;
+}
+.itens #gen>.subitemgen{
+    display: none;
+    
+}
+
